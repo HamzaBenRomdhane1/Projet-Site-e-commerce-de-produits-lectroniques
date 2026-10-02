@@ -1,19 +1,29 @@
-# Projet-Site-e-commerce-de-produits-lectroniques
-**Site E-commerce de Produits Électroniques**   *HTML, CSS, JavaScript*  Conception et développement d’un site web spécialisé dans la vente de produits électroniques, permettant de consulter les produits, rechercher et filtrer par catégorie, consulter les détails et gérer un panier.
-Projet : Site e-commerce de produits électroniques
+# Projet — Site E-commerce de Produits Électroniques
 
-Technologies
-- HTML
-- CSS
+## Description
+
+**Site E-commerce de Produits Électroniques**  
+*HTML, CSS, JavaScript*
+
+Conception et développement d’un site web spécialisé dans la vente de produits électroniques, permettant de consulter les produits, rechercher et filtrer par catégorie, consulter les détails des produits et gérer un panier.
+
+## Technologies
+
+- HTML5
+- CSS3
 - JavaScript
-Pages
+
+## Pages
+
 - Accueil
 - Produits
 - Détails du produit
 - Panier
 - Connexion / Inscription
 - Commande
-Catégories
+
+## Catégories
+
 - Smartphones
 - Ordinateurs
 - Casques
@@ -21,3 +31,7 @@ Catégories
 - Souris
 - Écrans
 - Accessoires gaming
+
+## Aperçu
+
+![Aperçu du site](screenshot.png)
