@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits & Commandes - TechStore.tn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER IDENTIQUE AUX AUTRES PAGES -->
+    <header class="header">
+        <div class="logo">TechStore.tn</div>
+        <nav class="nav">
+            <a href="index.html">Accueil</a>
+            <a href="inscription.html">S'inscrire</a>
+            <a href="produits.html">Produits & Commandes</a>
+        </nav>
+    </header>
+
+    <!-- TITRE DE LA PAGE 3 -->
+    <section style="text-align:center; padding:140px 20px 60px;">
+        <h1 style="font-size:4rem; color:#00eeff; text-shadow:0 0 30px #00eeff;">
+            Page d'affichage des produits et commandes
+        </h1>
+    </section>
+
+    <!-- === LES 6 PRODUITS EN GRILLE (comme le prof veut) === -->
+    <div class="products-grid">
+        <div class="product-card">
+            <img src="images/pc.jpg" alt="PC Portable Gamer Pro">
+            <h3>PC Portable Gamer Pro</h3>
+            <p>i7-13700H • RTX 4070 • 32 Go RAM • 1 To SSD • 165 Hz</p>
+            <p class="price">5 890 TND</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/souris.jpg" alt="Souris Gaming RGB">
+            <h3>Souris Gaming RGB</h3>
+            <p>16 000 DPI • 11 boutons programmables</p>
+            <p class="price">249 TND</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/clavier.jpg" alt="Clavier Mécanique">
+            <h3>Clavier Mécanique</h3>
+            <p>Switches Cherry MX Red • RGB • Anti-ghosting</p>
+            <p class="price">399 TND</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/casque.jpg" alt="Casque Gaming 7.1">
+            <h3>Casque Gaming 7.1</h3>
+            <p>Son surround • Micro rétractable • RGB</p>
+            <p class="price">479 TND</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/telephone.jpg" alt="Smartphone Flagship 2025">
+            <h3>Smartphone Flagship 2025</h3>
+            <p>Snapdragon 8 Gen 4 • 108 MP • Charge 120W</p>
+            <p class="price">3 699 TND</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/machine.jpg" alt="Machine à Laver Connectée">
+            <h3>Machine à Laver Connectée</h3>
+            <p>10 kg • WiFi • Classe A+++ • Contrôle vocal</p>
+            <p class="price">2 199 TND</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+    </div>
+
+    <!-- === PANIER DE COMMANDE (exactement comme le cahier des charges) === -->
+    <div class="cart-section">
+        <h2 style="color:#00eeff; text-align:center; margin-bottom:30px; font-size:2.8rem;">
+            Votre Panier
+        </h2>
+        <table id="cartTable" style="width:100%; border-collapse:collapse; background:rgba(0,0,0,0.9); border-radius:20px; overflow:hidden;">
+            <thead>
+                <tr style="background:#00eeff; color:black;">
+                    <th style="padding:20px;">Produit</th>
+                    <th style="padding:20px;">Prix unitaire</th>
+                    <th style="padding:20px;">Quantité</th>
+                    <th style="padding:20px;">Sous-total</th>
+                    <th style="padding:20px;">Action</th>
+                </tr>
+            </thead>
+            <tbody id="cartBody">
+                <!-- Les lignes du panier seront ajoutées par JavaScript -->
+            </tbody>
+        </table>
+
+        <div style="text-align:right; margin:40px 0; font-size:2.2rem; color:#00ff88;">
+            Total : <span id="totalPrice">0 TND</span>
+        </div>
+
+        <div style="text-align:center;">
+            <button id="clearCart" style="background:#ff4444; color:white; padding:16px 50px; border:none; border-radius:50px; font-size:1.4rem; margin:0 20px; cursor:pointer;">
+                Vider le panier
+            </button>
+            <button id="validateCart" style="background:#00ff88; color:black; padding:16px 50px; border:none; border-radius:50px; font-size:1.4rem; margin:0 20px; cursor:pointer;">
+                Valider la commande
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER IDENTIQUE -->
+    <footer class="footer">
+        <p>Contact : contact@techstore.tn | WhatsApp : +216 98 123 456</p>
+        <p>© 2025 TechStore.tn - Tous droits réservés</p>
+    </footer>
+
+    <!-- Ton script panier existant -->
+    <script src="script-panier.js"></script>
+</body>
+</html>
