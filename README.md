@@ -34,4 +34,4 @@ Conception et développement d’un site web spécialisé dans la vente de produ
 
 ## Aperçu
 
-![Aperçu du site](screenshot.png)
+!acceuil[Aperçu du site](acceuil.png)
