@@ -36,6 +36,6 @@ Conception et développement d’un site web spécialisé dans la vente de produ
 
 page d'acceuil [Aperçu du site](acceuil.png)
 
-page login [Aperçu du site](caplogin.png)
+page login [Aperçu du site](Caplogin.png)
 
 
