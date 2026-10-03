@@ -40,5 +40,8 @@ page login [Aperçu du site](Caplogin.png)
 
 page produit [Aperçu du site](produit.png)
 
+page panier [Aperçu du site](panier.png)
+
+
 
 
