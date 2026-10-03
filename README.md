@@ -34,13 +34,14 @@ Conception et développement d’un site web spécialisé dans la vente de produ
 
 ## Aperçu
 
-page d'acceuil [Aperçu du site](acceuil.png)
-
-page login [Aperçu du site](Caplogin.png)
-
-page produit [Aperçu du site](produit.png)
-
-page panier [Aperçu du site](panier.png)
+### Page d'accueil
+![Aperçu du site](acceuil.png)
+### Page login
+![Aperçu du site](Caplogin.png)
+### Page produit
+![Aperçu du site](produit.png)
+### Page panier
+![Aperçu du site](panier.png)
 
 
 
